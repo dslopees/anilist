@@ -1,0 +1,8 @@
+.header {
+  position: relative;
+  height: 400px;
+}
+
+.header.search {
+  height: 250px;
+}
