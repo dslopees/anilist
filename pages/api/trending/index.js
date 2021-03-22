@@ -20,7 +20,7 @@ export default async (req, res) => {
               hasNextPage
               perPage
             }
-            media(${search}) {
+            media(sort: TRENDING_DESC, type: ANIME, status: RELEASING) {
               id
               idMal
               title {
@@ -38,7 +38,7 @@ export default async (req, res) => {
               genres
             }
           }
-        }      
+        }
       `
     })
 

@@ -17,13 +17,13 @@ export default function SearchForm(props) {
       <form className="w-8/12 mx-auto bg-white shadow-md rounded p-1" onChange={handleOnChange} onSubmit={(event) => event.preventDefault()}>
         <input className="py-2 px-3 w-3/12 focus:outline-none" name="search" placeholder="Search Anime" />
         <select name="genres" className="py-2 px-3 w-3/12 focus:outline-none">
-          <option>Any</option>
+          <option>Genres</option>
         </select>
         <select name="format" className="py-2 px-3 w-3/12 focus:outline-none">
-          <option>Any</option>
+          <option>Format</option>
         </select>
         <select name="airing" className="py-2 px-3 w-3/12 focus:outline-none">
-          <option>Any</option>
+          <option>Airing</option>
         </select>
       </form>
     </div>
